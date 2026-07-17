@@ -652,6 +652,12 @@ footer p {
     }
 }
 
+/* Ocultar flechas del visor en celular */
+@media (max-width: 480px) {
+    .flecha {
+        display: none;
+    }
+}
 
 /* Ajuste para celular */
 
