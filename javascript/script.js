@@ -163,3 +163,30 @@ visor.addEventListener("touchend", (e) => {
         imagenAnterior();
     }
 });
+const formulario = document.getElementById("formulario-cotizacion");
+
+formulario.addEventListener("submit", function (evento) {
+    evento.preventDefault();
+
+    const nombre = document.getElementById("nombre").value;
+    const telefono = document.getElementById("telefono").value;
+    const metros = document.getElementById("metros").value;
+    const servicio = document.getElementById("servicio").value;
+    const mensaje = document.getElementById("mensaje").value;
+
+    const numeroWhatsApp = "527224976140";
+
+    const texto = `
+Hola, quiero solicitar una cotización.
+
+Nombre: ${nombre}
+Teléfono: ${telefono}
+Servicio: ${servicio}
+Metros aproximados: ${metros || "No especificados"}
+Mensaje: ${mensaje || "Sin mensaje adicional"}
+    `;
+
+    const enlace = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+
+    window.open(enlace, "_blank");
+});
