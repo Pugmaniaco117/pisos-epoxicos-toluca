@@ -20,50 +20,77 @@
         },
 
         autonivelante: {
-                titulo: "Autonivelante",
-                tipo: "Paso",
-                textos: [
-                    "Preparación del área antes de iniciar la aplicación del piso autonivelante.",
-                    "Limpieza de la superficie para retirar polvo, grasa y residuos.",
-                    "Revisión del piso para detectar detalles, grietas o zonas irregulares.",
-                    "Corrección de imperfecciones antes de aplicar el sistema epóxico.",
-                    "Preparación de la base para mejorar la adherencia del material.",
-                    "Mezcla y preparación del material autonivelante.",
-                    "Aplicación inicial del material sobre la superficie.",
-                    "Distribución uniforme del producto en el área trabajada.",
-                    "Nivelación del material para lograr una superficie pareja.",
-                    "Eliminación de marcas y burbujas durante la aplicación.",
-                    "Revisión de cobertura y avance del acabado.",
-                    "Inicio del proceso de curado del material aplicado.",
-                    "Formación del acabado brillante y uniforme.",
-                    "Inspección visual del piso durante el secado.",
-                    "Corrección de pequeños detalles en el acabado.",
-                    "Limpieza del área después de la aplicación.",
-                    "Verificación de brillo, uniformidad y presentación final.",
-                    "Piso autonivelante terminado con acabado profesional.",
-                    "Resultado final listo para su uso."
-                ]
-            },
+    titulo: "Autonivelante",
+    tipo: "Paso",
+    textos: [
+        "1. Preparación inicial del área. Se revisa el estado del piso y se retiran residuos antes de comenzar el trabajo.",
 
-            mortero: {
-                titulo: "Mortero epóxico con acabado autonivelante",
-                tipo: "Paso",
-                textos: [
-                    "Preparación del área para aplicar mortero epóxico.",
-                    "Limpieza y revisión del concreto antes de iniciar el trabajo.",
-                    "Aplicación del mortero epóxico sobre la superficie preparada.",
-                    "Distribución del mortero para reforzar y nivelar el piso.",
-                    "Aplicación del acabado autonivelante sobre el mortero.",
-                    "Revisión de cobertura en zonas de alto tránsito.",
-                    "Acomodo del material para dejar una superficie pareja.",
-                    "Acabado resistente para negocios, talleres o fábricas.",
-                    "Revisión del brillo y uniformidad del acabado.",
-                    "Limpieza final del área trabajada.",
-                    "Inspección del resultado terminado.",
-                    "Entrega del piso con acabado autonivelante listo para uso."
-                ]
-            }
-        };
+        "2. Limpieza y acondicionamiento del concreto. La superficie se prepara para mejorar la adherencia del sistema epóxico.",
+
+        "3. Aplicación de la capa de preparación. Se cubre la superficie y se trabajan las uniones cercanas a los muros.",
+
+        "4. Formación del zoclo sanitario. Se detallan cuidadosamente los bordes, las columnas y los encuentros con las paredes.",
+
+        "5. Cobertura de la superficie. La base queda aplicada de manera uniforme sobre toda el área.",
+
+        "6. Preparación de pasillos y esquinas. Se completa la aplicación en zonas estrechas y alrededor de los muros.",
+
+        "7. Aplicación inicial de la capa base. El material se distribuye por secciones sobre la superficie preparada.",
+
+        "8. Capa base terminada. El área queda completamente cubierta y lista para recibir el acabado autonivelante.",
+
+        "9. Inicio del acabado autonivelante. El recubrimiento comienza a extenderse para formar una superficie continua.",
+
+        "10. Distribución uniforme del material. Se controla la cobertura para obtener un acabado parejo en toda el área.",
+
+        "11. Nivelación de la superficie. El producto se acomoda para reducir marcas y mantener un espesor uniforme.",
+
+        "12. Aplicación del recubrimiento final. El personal distribuye cuidadosamente el material sobre el piso.",
+
+        "13. Revisión del avance. Se verifica la continuidad, nivelación y cobertura del sistema autonivelante.",
+
+        "14. Formación del acabado brillante. La superficie comienza a mostrar una apariencia lisa y reflectante.",
+
+        "15. Acabado continuo y uniforme. El piso queda sin uniones visibles y con una presentación profesional.",
+
+        "16. Vista general del resultado. Se aprecia el brillo y la nivelación obtenidos en toda el área.",
+
+        "17. Detalle del acabado terminado. El recubrimiento presenta una superficie lisa, brillante y fácil de limpiar.",
+
+        "18. Resultado final. Piso epóxico autonivelante completamente terminado y listo para su uso."
+    ]
+},
+
+        mortero: {
+    titulo: "Mortero epóxico con acabado autonivelante",
+    tipo: "Paso",
+    textos: [
+        "1. Preparación y reparación del piso. Se corrigen grietas, desniveles y zonas dañadas antes de aplicar el mortero epóxico.",
+
+        "2. Compactación del mortero epóxico. El material se distribuye y compacta para crear una base resistente y uniforme.",
+
+        "3. Nivelación manual de la superficie. Se extiende cuidadosamente el mortero epóxico para eliminar irregularidades.",
+
+        "4. Avance de la base epóxica. El área queda cubierta con una capa firme y nivelada de mortero epóxico.",
+
+        "5. Aplicación por secciones. Se continúa colocando el mortero hasta cubrir completamente la superficie industrial.",
+
+        "6. Base de mortero terminada. La superficie queda compacta, uniforme y preparada para recibir el acabado autonivelante.",
+
+        "7. Aplicación del recubrimiento autonivelante. Se distribuye la resina epóxica para obtener una superficie lisa y continua.",
+
+        "8. Nivelación del recubrimiento epóxico. El material se extiende uniformemente para lograr un acabado brillante y sin uniones.",
+
+        "9. Primera vista del acabado final. El piso presenta una superficie continua, lisa, brillante y de fácil limpieza.",
+
+        "10. Brillo y uniformidad del piso. Se aprecia el reflejo del acabado autonivelante aplicado sobre toda el área.",
+
+        "11. Cobertura completa del área. El sistema epóxico forma una superficie resistente y uniforme para uso industrial.",
+
+        "12. Resultado final. Mortero epóxico con acabado autonivelante completamente terminado, resistente, brillante y de excelente presentación."
+    ]
+}
+};
 
     let imagenesActuales = [];
 let indiceActual = 0;
